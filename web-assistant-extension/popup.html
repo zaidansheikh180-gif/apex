@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 350px; padding: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f9; }
+    h3 { margin-top: 0; color: #333; }
+    .container { display: flex; flex-direction: column; gap: 10px; }
+    #element-list {
+      max-height: 200px;
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      background: white;
+      padding: 5px;
+      font-size: 0.85em;
+    }
+    .element-item {
+      padding: 5px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+    }
+    .element-item:hover { background: #eef; }
+    .controls { display: flex; gap: 5px; margin-top: 10px; }
+    input { flex-grow: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: 8px 15px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+    #status { font-size: 0.8em; color: #666; margin-top: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Web Agent Console</h3>
+  <div class="container">
+    <button id="scanBtn">Scan Page Elements</button>
+    <div id="element-list">Click scan to see interactive elements...</div>
+
+    <div class="controls">
+      <input type="text" id="actionInput" placeholder="Enter text to type (optional)">
+      <button id="actionBtn">Action Selected</button>
+    </div>
+    <div id="status">Ready</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
