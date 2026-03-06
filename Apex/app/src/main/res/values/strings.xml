@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="apex_score_title">Apex Score</string>
+    <string name="empty_dashboard">No data available. Sync your health data to get started.</string>
+    
+    <!-- Workout Modes -->
+    <string name="mode_full_label">Full Workout</string>
+    <string name="mode_express_label">Express Mode</string>
+    <string name="rehab_mode_label">Rehab Mode</string>
+    <string name="mode_full_chip">Full</string>
+    <string name="mode_express_chip">Express</string>
+    <string name="mode_rehab_chip">Rehab</string>
+    <string name="mode_selector_title">Workout Mode</string>
+    <string name="mode_override_notice">You\'re overriding the recommended mode</string>
+    <string name="mode_label">Mode: %1$s</string>
+    
+    <!-- Streak -->
+    <string name="streak_label">Day Streak</string>
+    <string name="streak_freeze_label">Streak Frozen</string>
+    
+    <!-- Biometrics -->
+    <string name="biometrics_title">Biometrics</string>
+    <string name="hrv_label">HRV</string>
+    <string name="sleep_label">Sleep</string>
+    <string name="rhr_label">RHR</string>
+    <string name="sync_button">Sync</string>
+    <string name="data_stale_warning">Data is stale. Tap to sync.</string>
+    
+    <!-- Workout -->
+    <string name="start_full_workout">Start Full Workout</string>
+    <string name="start_express_workout">Start Express</string>
+    <string name="start_rehab_workout">Start Rehab</string>
+    <string name="no_active_program">No Active Program</string>
+    <string name="browse_programs_prompt">Browse our workout programs to find one that fits your goals.</string>
+    <string name="browse_programs_button">Browse Programs</string>
+    
+    <!-- Health Connect -->
+    <string name="health_connect_missing_title">Health Connect Not Available</string>
+    <string name="health_connect_missing_body">Install Health Connect to sync your biometrics automatically.</string>
+    <string name="install_button">Install</string>
+    
+    <!-- Manual Energy -->
+    <string name="manual_energy_title">How are you feeling?</string>
+    <string name="manual_energy_subtitle">Rate your energy level</string>
+    <string name="energy_level_label">Energy: %1$d/5</string>
+    
+    <!-- Session -->
+    <string name="reps_label">REPS</string>
+    <string name="set_progress">Set %1$d of %2$d</string>
+    <string name="tonnage_display">%1$d kg</string>
+    <string name="skip_button">Skip</string>
+    <string name="complete_set">Complete Set</string>
+    <string name="finish_workout">Finish Workout</string>
+    
+    <!-- Form Errors -->
+    <string name="form_toast_depth">Go deeper for a full rep!</string>
+    <string name="form_toast_align">Watch your knee alignment</string>
+    
+    <!-- Rest Timer -->
+    <string name="rest_timer_title">Rest Time</string>
+    <string name="resume_button">Resume</string>
+    
+    <!-- Manual Mode -->
+    <string name="manual_mode_title">Manual Mode</string>
+    <string name="manual_mode_subtitle">Tap the button below to count each rep</string>
+    <string name="tap_to_count">TAP TO COUNT</string>
+    
+    <!-- Poor Lighting -->
+    <string name="poor_lighting_title">Poor Lighting Detected</string>
+    <string name="poor_lighting_body">Pose detection may be inaccurate. Consider switching to manual mode.</string>
+    <string name="dismiss_button">Dismiss</string>
+    <string name="switch_manual_button">Switch to Manual</string>
+    
+    <!-- Session Complete -->
+    <string name="session_complete_title">Workout Complete!</string>
+    <string name="session_complete_high">Excellent form! You crushed it!</string>
+    <string name="session_complete_mid">Good workout! Keep improving your form.</string>
+    <string name="tonnage_stat">Total Tonnage</string>
+    <string name="time_stat">Time</string>
+    <string name="form_score_stat">Form Score</string>
+    <string name="finish_button">Finish</string>
+    
+    <!-- Paywall -->
+    <string name="paywall_title">Upgrade to Apex Pro</string>
+    <string name="paywall_body">Unlock unlimited workouts and advanced analytics!</string>
+    <string name="paywall_feature_1">Unlimited workouts</string>
+    <string name="paywall_feature_2">Advanced form analysis</string>
+    <string name="paywall_feature_3">Detailed progress tracking</string>
+    <string name="subscribe_button">Subscribe</string>
+    <string name="maybe_later_button">Maybe Later</string>
+</resources>
