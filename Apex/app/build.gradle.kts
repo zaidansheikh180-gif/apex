@@ -47,7 +47,7 @@ android {
         buildConfig = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.8"
+        kotlinCompilerExtensionVersion = "1.5.14"
     }
     packaging {
         resources {
@@ -58,7 +58,7 @@ android {
 
 dependencies {
     val compose_bom_version = "2024.02.00"
-    val hilt_version = "2.50"
+    val hilt_version = "2.51.1"
     val room_version = "2.6.1"
     val navigation_version = "2.7.7"
     val coroutines_version = "1.7.3"
