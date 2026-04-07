@@ -3,16 +3,14 @@ pluginManagement {
         google()
         gradlePluginPortal()
         mavenCentral()
-        maven { setUrl("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev") }
     }
 }
 
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         google()
         mavenCentral()
-        maven { setUrl("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev") }
     }
 }
 
