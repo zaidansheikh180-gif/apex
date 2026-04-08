@@ -25,15 +25,19 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-            // Core Business Logic (PRD 2.1)
+            // Core Business Logic
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
             implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")
+            
+            // Date and Time (KMP equivalent of Luxon/Moment)
+            implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.5.0")
         }
+
         androidMain.dependencies {
-            // Android-specific (MediaPipe Lite, etc.)
+            // Android-specific
         }
         iosMain.dependencies {
-            // iOS-specific (Haptics, etc.)
+            // iOS-specific
         }
     }
 }
